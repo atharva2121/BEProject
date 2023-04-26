@@ -6,12 +6,14 @@ import { HomeModule } from './home/home.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthModule } from './auth/auth.module';
 import { HeaderComponent } from './auth/header/header.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AboutUsComponent, ContactUsComponent],
   imports: [
     FormsModule,
     AppRoutingModule,
